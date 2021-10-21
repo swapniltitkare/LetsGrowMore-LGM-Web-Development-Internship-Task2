@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+
+.navbar{
+  background-color: rgb(7, 4, 51);
+  width: 100%;
+  height: 4rem;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.logo{
+  font-weight: 700;
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+}
+
+.getusers_btn{
+  margin: 0.8rem 0;
+  position: absolute;
+  right: 3rem;
+}
+
+.loader {
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  background-color: #dddddd;
+  z-index: 9999;
+}
+
+.userCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  display: inline-block;
+
+  width: 19rem;
+  height: 22rem;
+
+
+  margin: 1.1rem;
+  box-shadow: 0 3px 5px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #0F044C;
+}
+
+.card .pic img{
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 5px solid #122;
+  margin-top: 1rem;
+}
+
+.card .info h3{
+  color: #f0f0f0;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.card .info p{
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #999;
+}
+.card:hover{
+  background-color: #DA0037;
+  background-color: #000000;
+}
